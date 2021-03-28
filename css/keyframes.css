@@ -1,0 +1,41 @@
+@keyframes menu_go {
+  from {width: 0px;}
+  to {width: 290px;}
+}
+
+@keyframes menu_go_a {
+  from {width: 290px;}
+  to {width: 0px;}
+}
+
+@-webkit-keyframes menu_go {
+  from {width: 0px;}
+  to {width: 290px;}
+}
+
+@-webkit-keyframes menu_go_a {
+  from {width: 290px;}
+  to {width: 0px;}
+}
+
+@keyframes fadeinup {
+	from {
+		transform: translate3d(0,40px,0)
+	}
+	
+	to {
+		transform: translate3d(0,0,0);
+        opacity: 1
+	}
+}
+
+@-webkit-keyframes fadeinup {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}

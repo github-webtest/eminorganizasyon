@@ -1,2 +1,0 @@
-# eminorganizasyon
-Emin Organizasyon

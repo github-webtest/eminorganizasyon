@@ -255,7 +255,7 @@ body{
 }
 
 .anasayfa_text_h3 b{
-	background-color: rgba(255, 255, 255, 0.2);
+	background-color: rgba(255, 255, 255, 0.1);
 }
 
 .anasayfa_text_h1{
@@ -264,7 +264,7 @@ body{
 }
 
 .anasayfa_text_h1 span{
-	background-color: rgba(255, 255, 255, 0.2);
+	background-color: rgba(255, 255, 255, 0.1);
 }
 
 .footer_bg{

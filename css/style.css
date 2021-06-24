@@ -13,6 +13,9 @@ body{
 	width: 100%;
 	height: 100vh;
 	float: left;
+	overflow: scroll;
+	overflow-x: hidden !important;
+    overflow-y: hidden !important;
 }
 
 .anasayfa_head_bg{

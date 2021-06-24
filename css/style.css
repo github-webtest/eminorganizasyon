@@ -98,8 +98,9 @@ body{
 
 .photo_animation_1{
 	width: 76%;
+	max-width: 393px;
 	height: 42vh;
-	margin-left: 17%;
+	margin-left: 10%;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	animation: 14s photo_auto_change_1 infinite;
@@ -109,8 +110,9 @@ body{
 
 .photo_animation_2{
 	width: 76%;
+	max-width: 393px;
 	height: 42vh;
-	margin-left: 17%;
+	margin-left: 10%;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	animation: 14s photo_auto_change_2 infinite;
@@ -120,8 +122,9 @@ body{
 
 .photo_animation_3{
 	width: 76%;
+	max-width: 393px;
 	height: 42vh;
-	margin-left: 17%;
+	margin-left: 10%;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	animation: 14s photo_auto_change_3 infinite;
@@ -137,18 +140,30 @@ body{
 	z-index: 2;
 }
 
-.scroll_x_button_in{
+.scroll_x_button_in_1{
 	width: 90%;
+	max-width: 50px;
 	height: 6vh;
 	margin-top: 18vh;
-	margin-left: 5%;
 	cursor: pointer;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
+	float: right;
+}
+
+.scroll_x_button_in_2{
+	width: 90%;
+	max-width: 50px;
+	height: 6vh;
+	margin-top: 18vh;
+	cursor: pointer;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	float: left;
 }
 
 .scroll_x{
-	width: 76%;
+	width: 42vh;
 	height: 42vh;
 	overflow-x: scroll;
 	overflow-y: hidden;

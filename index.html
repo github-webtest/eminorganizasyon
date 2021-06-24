@@ -8,213 +8,150 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 	<link url="style" rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<link url="style" rel="stylesheet" href="css/keyframes.css" type="text/css" media="screen">
 	<link url="style" rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
-	<link url="style" rel="stylesheet" href="css/keyframes.css" type="text/css" media="screen">	
+	<script src="js/menu_head.js"></script>
+	<script src="js/scrolling.js"></script>
+	
 	<style>
-	@font-face {
-  font-family: EO_google;
-  src: url('font/EO_google.woff2');
-  font-style: normal;
-  font-weight: 400;
-  font-display: block;
-}
-
-@keyframes photochange_1 {
-  10%{
-		background-image: url('images/nisan_soz_masasi.png');
+	@keyframes photo_auto_change_1 {
+	0%{background-image: url('images/plastik_sandalye.png');}
+	50%{background-image: url('images/tiffany_sandalye.png');}
+	100%{background-image: url('images/hilton_sandalye.png');}
 	}
-  20%{
-		background-image: url('images/kina_tahti.png');
+	
+	@-webkit-keyframes photo_auto_change_1 {
+	0%{background-image: url('images/plastik_sandalye.png');}
+	50%{background-image: url('images/tiffany_sandalye.png');}
+	100%{background-image: url('images/hilton_sandalye.png');}
 	}
-	40%{
-		background-image: url('images/bistro_masa.png');
+	
+	@keyframes photo_auto_change_2 {
+	0%{background-image: url('images/dikdortgen_masa.png');}
+	33%{background-image: url('images/yuvarlak_masa.png');}
+	66%{background-image: url('images/bistro_masa.png');}
+	100%{background-image: url('images/banket_masa.png');}
 	}
-  60%{
-		background-image: url('images/yuvarlak_masa.png');
+	
+	@-webkit-keyframes photo_auto_change_2 {
+	0%{background-image: url('images/dikdortgen_masa.png');}
+	33%{background-image: url('images/yuvarlak_masa.png');}
+	66%{background-image: url('images/bistro_masa.png');}
+	100%{background-image: url('images/banket_masa.png');}
 	}
-  80%{
-		background-image: url('images/banket_masa.png');
+	
+	@keyframes photo_auto_change_3 {
+	0%{background-image: url('images/tunel_cadir.png');}
+	50%{background-image: url('images/kubbeli_cadir.png');}
+	100%{background-image: url('images/cardak.png');}
 	}
-	100%{
-		background-image: url('images/mdf_masa.png');
+	
+	@-webkit-keyframes photo_auto_change_3 {
+	0%{background-image: url('images/tunel_cadir.png');}
+	50%{background-image: url('images/kubbeli_cadir.png');}
+	100%{background-image: url('images/cardak.png');}
 	}
-}
-
-@-webkit-keyframes photochange_1 {
-	10%{
-		background-image: url('images/nisan_soz_masasi.png');
-	}
-  20%{
-		background-image: url('images/kina_tahti.png');
-	}
-	40%{
-		background-image: url('images/bistro_masa.png');
-	}
-  60%{
-		background-image: url('images/yuvarlak_masa.png');
-	}
-  80%{
-		background-image: url('images/banket_masa.png');
-	}
-	100%{
-		background-image: url('images/mdf_masa.png');
-	}
-}
-
-@keyframes photochange_2 {
-	12%{
-		background-image: url('images/plastik_sandalye.png');
-	}
-	25%{
-		background-image: url('images/plastik_sandalye.png');
-	}
-  50%{
-		background-image: url('images/hilton_sandalye.png');
-	}
-	75%{
-		background-image: url('images/tiffany_sandalye.png');
-	}
-	100%{
-		background-image: url('images/sandalye_giydirme.png');
-	}
-}
-
-@-webkit-keyframes photochange_2 {
-	12%{
-		background-image: url('images/plastik_sandalye.png');
-	}
-	25%{
-		background-image: url('images/plastik_sandalye.png');
-	}
-  50%{
-		background-image: url('images/hilton_sandalye.png');
-	}
-	75%{
-		background-image: url('images/tiffany.png');
-	}
-	100%{
-		background-image: url('images/sandalye_giydirme.png');
-	}
-}
-
-@keyframes photochange_3 {
-	15%{
-		background-image: url('images/tunel_cadir.png');
-	}
-	33%{
-		background-image: url('images/kubbeli_cadir.png');
-	}
-	100%{
-		background-image: url('images/cardak.png');
-	}
-}
-
-@-webkit-keyframes photochange_3 {
-	15%{
-		background-image: url('images/tunel_cadir.png');
-	}
-	33%{
-		background-image: url('images/kubbeli_cadir.png');
-	}
-	100%{
-		background-image: url('images/cardak.png');
-	}
-}
 	</style>
+	
 </head>
 
-<body id="body">
+<body>
 
-<div class="anasayfa_head_bg">
+<div class="top_header_bg">
 <center>
-<div class="anasayfa_head_inner">
-<div class="head_text"><center><b class="top_head_text_1" onclick="window.location.href='index.html';">Emin Organizasyon</b></center><b class="top_head_text_2" onclick="window.location.href='index.html';">05422066789 - Emin Organizasyon</b></div>
-<div class="menu_head">
-<div id="menu_change" class="container" onclick="menu_open_and_close(this)">
+<div class="top_header_bg_in_1"><b>Emin Organizasyon</b>
+<div class="container" id="menu_change" onclick="menu_open_and_close(this)">
   <div class="bar1"></div>
   <div class="bar2"></div>
   <div class="bar3"></div>
 </div>
-<script type="text/javascript" src="js/menu_head.js"></script>
+</div>
+
+<div class="top_header_bg_in_2"><b>Emin Organizasyon - 05422066789</b>
+<div class="container" onclick="menu_open_and_close(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
 </div>
 </div>
+
 </center>
 </div>
 
-<div id="menu_bar" class="menu_bg">
-<div class="menu_in">
-<a href="index.html" class="menus"><div class="menus_in">Anasayfa</div></a>
-<a href="hizmetlerimiz.html" class="menus"><div class="menus_in">Hizmetlerimiz</div></a>
-<a href="kurumsal.html" class="menus"><div class="menus_in">Kurumsal</div></a>
-<a href="iletisim.html" class="menus"><div class="menus_in">İletişim</div></a>
-</div>
-
-<div class="menu_social_icons">
-<div class="menu_social_icons_in">
-
-<a href="https://www.facebook.com/eminmasasandalye" target="_blank">
-<div class="menu_icons_button_1">
-<svg class="menu_svg_icons" viewBox="0 0 24 24"><path d="M12,2C6.5,2,2,6.5,2,12c0,5,3.7,9.1,8.4,9.9v-7H7.9V12h2.5V9.8c0-2.5,1.5-3.9,3.8-3.9c1.1,0,2.2,0.2,2.2,0.2v2.5h-1.3 c-1.2,0-1.6,0.8-1.6,1.6V12h2.8l-0.4,2.9h-2.3v7C18.3,21.1,22,17,22,12C22,6.5,17.5,2,12,2z"></path></svg>
-</div>
-</a>
-
-<a href="https://twitter.com/eminorganizasy1" target="_blank">
-<div class="menu_icons_button">
-<svg class="menu_svg_icons" viewBox="0 0 24 24"><path d="M22.23,5.924c-0.736,0.326-1.527,0.547-2.357,0.646c0.847-0.508,1.498-1.312,1.804-2.27 c-0.793,0.47-1.671,0.812-2.606,0.996C18.324,4.498,17.257,4,16.077,4c-2.266,0-4.103,1.837-4.103,4.103 c0,0.322,0.036,0.635,0.106,0.935C8.67,8.867,5.647,7.234,3.623,4.751C3.27,5.357,3.067,6.062,3.067,6.814 c0,1.424,0.724,2.679,1.825,3.415c-0.673-0.021-1.305-0.206-1.859-0.513c0,0.017,0,0.034,0,0.052c0,1.988,1.414,3.647,3.292,4.023 c-0.344,0.094-0.707,0.144-1.081,0.144c-0.264,0-0.521-0.026-0.772-0.074c0.522,1.63,2.038,2.816,3.833,2.85 c-1.404,1.1-3.174,1.756-5.096,1.756c-0.331,0-0.658-0.019-0.979-0.057c1.816,1.164,3.973,1.843,6.29,1.843 c7.547,0,11.675-6.252,11.675-11.675c0-0.178-0.004-0.355-0.012-0.531C20.985,7.47,21.68,6.747,22.23,5.924z"></path></svg>
-</div>
-</a>
-
-<a href="https://www.instagram.com/eminmasasandalyeankara" target="_blank">
-<div class="menu_icons_button">
-<svg class="menu_svg_icons" viewBox="0 0 24 24"><path d="M12,4.622c2.403,0,2.688,0.009,3.637,0.052c0.877,0.04,1.354,0.187,1.671,0.31c0.42,0.163,0.72,0.358,1.035,0.673 c0.315,0.315,0.51,0.615,0.673,1.035c0.123,0.317,0.27,0.794,0.31,1.671c0.043,0.949,0.052,1.234,0.052,3.637 s-0.009,2.688-0.052,3.637c-0.04,0.877-0.187,1.354-0.31,1.671c-0.163,0.42-0.358,0.72-0.673,1.035 c-0.315,0.315-0.615,0.51-1.035,0.673c-0.317,0.123-0.794,0.27-1.671,0.31c-0.949,0.043-1.233,0.052-3.637,0.052 s-2.688-0.009-3.637-0.052c-0.877-0.04-1.354-0.187-1.671-0.31c-0.42-0.163-0.72-0.358-1.035-0.673 c-0.315-0.315-0.51-0.615-0.673-1.035c-0.123-0.317-0.27-0.794-0.31-1.671C4.631,14.688,4.622,14.403,4.622,12 s0.009-2.688,0.052-3.637c0.04-0.877,0.187-1.354,0.31-1.671c0.163-0.42,0.358-0.72,0.673-1.035 c0.315-0.315,0.615-0.51,1.035-0.673c0.317-0.123,0.794-0.27,1.671-0.31C9.312,4.631,9.597,4.622,12,4.622 M12,3 C9.556,3,9.249,3.01,8.289,3.054C7.331,3.098,6.677,3.25,6.105,3.472C5.513,3.702,5.011,4.01,4.511,4.511 c-0.5,0.5-0.808,1.002-1.038,1.594C3.25,6.677,3.098,7.331,3.054,8.289C3.01,9.249,3,9.556,3,12c0,2.444,0.01,2.751,0.054,3.711 c0.044,0.958,0.196,1.612,0.418,2.185c0.23,0.592,0.538,1.094,1.038,1.594c0.5,0.5,1.002,0.808,1.594,1.038 c0.572,0.222,1.227,0.375,2.185,0.418C9.249,20.99,9.556,21,12,21s2.751-0.01,3.711-0.054c0.958-0.044,1.612-0.196,2.185-0.418 c0.592-0.23,1.094-0.538,1.594-1.038c0.5-0.5,0.808-1.002,1.038-1.594c0.222-0.572,0.375-1.227,0.418-2.185 C20.99,14.751,21,14.444,21,12s-0.01-2.751-0.054-3.711c-0.044-0.958-0.196-1.612-0.418-2.185c-0.23-0.592-0.538-1.094-1.038-1.594 c-0.5-0.5-1.002-0.808-1.594-1.038c-0.572-0.222-1.227-0.375-2.185-0.418C14.751,3.01,14.444,3,12,3L12,3z M12,7.378 c-2.552,0-4.622,2.069-4.622,4.622S9.448,16.622,12,16.622s4.622-2.069,4.622-4.622S14.552,7.378,12,7.378z M12,15 c-1.657,0-3-1.343-3-3s1.343-3,3-3s3,1.343,3,3S13.657,15,12,15z M16.804,6.116c-0.596,0-1.08,0.484-1.08,1.08 s0.484,1.08,1.08,1.08c0.596,0,1.08-0.484,1.08-1.08S17.401,6.116,16.804,6.116z"></path></svg>
-</div>
-</a>
-
-</div>
-</div>
-</div>
-<div id="menu_close_a" class="menu_close" onclick="menu_close()"></div>
-
-<div id="a_image_1" class="anasayfa_images" style="background-image: url('images/anasayfa_1.png');">
-<div class="image_text">
-<h3 class="anasayfa_text_h3"><b>Emin Organizasyon</b></h3>
-<h1 class="anasayfa_text_h1"><span>Ankara Masa Sandalye Çadır Kiralama</span></h1>
-<a class="anasayfa_links_a" href="#a_image_2"><div class="anasayfa_links_divs"><b>Devam</b></div></a>
+<div class="menu_bar" id="menu_bar_id">
+<div class="menu_bar_in">
+<div class="menu_header_f" onclick="window.location.href='index.html';">
+<div class="menu_header_in">
+<b>Anasayfa</b>
 </div>
 </div>
 
+<div class="menu_header">
+<div class="menu_header_in" onclick="window.location.href='hizmetlerimiz.html';">
+<b>Hizmetlerimiz</b>
+</div>
+</div>
+
+<div class="menu_header">
+<div class="menu_header_in" onclick="window.location.href='iletisim.html';">
+<b>İletişim</b>
+</div>
+</div>
+</div>
+</div>
+
+<div class="menu_close_bg" id="menu_close_id" onclick="menu_close()"></div>
+
+<div class="scroll_div">
+
+<div class="banner" style="background-image: url('images/banner.png');">
 <center>
-<div id="a_image_2" class="all_images anasayfa_images_animation_1" style="background-image: url('images/nisan_soz_masasi.png');">
-<div class="image_text">
-<h3 class="anasayfa_text_h3"><b>Masa Kiralama</b></h3>
-<h1 class="anasayfa_text_h1"><span>Nişan Söz Masası Kiralama</span><br><span>Kına Tahtı Kiralama</span><br><span>Bistro Masa Kiralama</span><br><span>Yuvarlak Masa Kiralama</span><br><span>Banket Masa Kiralama</span><br><span>Dikdörtgen Masa Kiralama</span></h1>
-<a class="anasayfa_links_a" href="#a_image_3"><div class="anasayfa_links_divs"><b>Devam</b></div></a>
-</div>
+<div class="banner_in">
+<b>Ankara Masa Sandalye Çadır Kiralama</b>
+<br>
+<span style="font-size: 2.7vh; color: #f5f5f5;">Ankara Plastik sandalye, Tiffany sandalye, Hilton sandalye, Dikdörtgen masa, Yuvarlak masa, Bistro masa, Banket masa, Tünel çadır, Kubbeli çadır, Çardak Kiralama </span><span style="user-select: text;">05422066789</span>
 </div>
 </center>
+</div>
 
-<center>
-<div id="a_image_3" class="all_images anasayfa_images_animation_2" style="background-image: url('images/plastik_sandalye.png');">
-<div class="image_text">
-<h3 class="anasayfa_text_h3"><b>Sandalye Kiralama</b></h3>
-<h1 class="anasayfa_text_h1"><span>Plastik Sandalye Kiralama</span><br><span>Hilton Sandalye Kiralama</span><br><span>Tiffany Sandalye Kiralama</span><br><span>Sandalye Giydirme Kiralama</span></h1>
-<a class="anasayfa_links_a" href="#a_image_4"><div class="anasayfa_links_divs"><b>Devam</b></div></a>
-</div>
-</div>
-</center>
+<div class="title_1"><b>Sandalye Kiralama</b></div>
+<div class="title_1_bottom"><span>Ankara Plastik Sandalye, Tiffany Sandalye, Hilton Sandalye kiralama </span><span style="user-select: text;">05422066789</span></div>
+<div class="photo_animation_1" style="background-image: url('images/plastik_sandalye.png');"></div>
 
-<center>
-<div id="a_image_4" class="all_images anasayfa_images_animation_3" style="background-image: url('images/tunel_cadir.png');">
-<div class="image_text">
-<h3 class="anasayfa_text_h3"><b>Çadır Kiralama</b></h3>
-<h1 class="anasayfa_text_h1"><span>Tünel Çadır Kiralama</span><br><span>Kubbeli Çadır Kiralama</span><br><span>Çardak Kiralama</span></h1>
-<a class="anasayfa_links_a" href="#footer_bottom"><div class="anasayfa_links_divs"><b>Devam</b></div></a>
-</div>
-</div>
-</center>
+<div class="title_1"><b>Masa Kiralama</b></div>
+<div class="title_1_bottom"><span>Ankara Dikdörtgen Masa, Yuvarlak Masa, Bistro Masa, Banket Masa kiralama </span><span style="user-select: text;">05422066789</span></div>
+<div class="photo_animation_2" src="images/dikdortgen_masa.png"></div>
 
-<div id="footer_bottom" class="footer_bg">
-<div class="footer_in_div"><b>05422066789 Emin Organizasyon © 2021</b></div>
+<div class="title_1"><b>Çadır Kiralama</b></div>
+<div class="title_1_bottom"><span>Ankara Tünel Çadır, Kubbeli Çadır, Çardak kiralama </span><span style="user-select: text;">05422066789</span></div>
+<div class="photo_animation_3" src="images/tunel_cadir.png"></div>
+
+<div class="title_1"><b>Masa Sandalye Kiralama</b></div>
+<div class="title_1_bottom" style="margin-right: 10%;"><span>En uygun fiyatlarla Ankara masa sandalye kiralama </span><span style="user-select: text;">05422066789</span></div>
+<div class="scroll_x_button"><div class="scroll_x_button_in" style="background-image: url('images/back.png');" onclick="back_photo()"></div></div>
+<div id="photos_a1" class="scroll_x">
+<div class="scroll_x_in"><img class="title_img" src="images/masa_sandalye.png"></div>
+<div class="scroll_x_in2"><img class="title_img" src="images/masa_sandalye2.png"></div>
+<div class="scroll_x_in3"><img class="title_img" src="images/masa_sandalye3.png"></div>
+<div class="scroll_x_in4"><img class="title_img" src="images/masa_sandalye4.png"></div>
+<div class="scroll_x_in5"><img class="title_img" src="images/masa_sandalye5.png"></div>
+</div>
+<div class="scroll_x_button"><div class="scroll_x_button_in" style="background-image: url('images/next.png');" onclick="next_photo()"></div></div>
+
+<div class="title_1"><b>Çadır Kiralama</b></div>
+<div class="title_1_bottom" style="margin-right: 10%;"><span>En uygun fiyatlarla Ankara çadır kiralama </span><span style="user-select: text;">05422066789</span></div>
+<div class="scroll_x_button"><div class="scroll_x_button_in" style="background-image: url('images/back.png');" onclick="back_photo_2()"></div></div>
+<div id="photos_a2" class="scroll_x">
+<div class="scroll_x_in"><img class="title_img" src="images/cadir.png"></div>
+<div class="scroll_x_in2"><img class="title_img" src="images/cadir2.png"></div>
+<div class="scroll_x_in3"><img class="title_img" src="images/cadir3.png"></div>
+<div class="scroll_x_in4"><img class="title_img" src="images/cadir4.png"></div>
+<div class="scroll_x_in5"><img class="title_img" src="images/cadir5.png"></div>
+</div>
+<div class="scroll_x_button"><div class="scroll_x_button_in" style="background-image: url('images/next.png');" onclick="next_photo_2()"></div></div>
+
+<div class="footer_bg">
+<div class="footer_in_div"><b style="user-select: text;">05422066789</b><b> Emin Organizasyon © 2021</b></div>
 <div class="footer_in_div2">
 <center>
 <div class="footer_icons">
@@ -224,6 +161,8 @@
 </div>
 </center>
 </div>
+</div>
+
 </div>
 
 </body>

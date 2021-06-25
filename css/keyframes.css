@@ -17,3 +17,8 @@
   from {width: 290px;}
   to {width: 0px;}
 }
+
+@keyframes go_close_bg {
+	from {background-color: rgba(0,0,0,0.1);}
+  to {background-color: rgba(0,0,0,0.5);}
+}

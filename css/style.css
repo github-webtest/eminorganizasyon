@@ -286,7 +286,7 @@ body{
 .container {
   display: inline-block;
   cursor: pointer;
-  top: 3.5vh;
+  top: 3.2vh;
   right: 4%;
   position: absolute;
 }
@@ -379,10 +379,12 @@ body{
 	height: 100vh;
 	background-color: rgba(0,0,0,0.5);
 	position: absolute;
-	right: 290px;
+	left: 0px;
 	top: 0px;
-	z-index: 998;
+	z-index: 990;
 	display: none;
+	animation: 0.8s go_close_bg;
+	-webkit-animation: 0.8s go_close_bg;
 }
 
 .google_map{

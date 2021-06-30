@@ -11,39 +11,91 @@ body{
 /* wix class */
 
 .device-mobile-optimized::-webkit-scrollbar {
-    display: none;
+    display: none !important;
+}
+
+#pages-css::-webkit-scrollbar {
+    display: none !important;
 }
 
 #SITE_CONTAINER::-webkit-scrollbar {
-    display: none;
+    display: none !important;
+}
+
+#main_MF::-webkit-scrollbar {
+    display: none !important;
+}
+
+#SCROLL_TO_TOP::-webkit-scrollbar {
+    display: none !important;
+}
+
+#SKIP_TO_CONTENT_BTN::-webkit-scrollbar {
+    display: none !important;
+}
+
+#BACKGROUND_GROUP::-webkit-scrollbar {
+    display: none !important;
+}
+
+#pageBackground_c1dmp::-webkit-scrollbar {
+    display: none !important;
+}
+
+#bgLayers_pageBackground_c1dmp::-webkit-scrollbar {
+    display: none !important;
+}
+
+._22Lsw::-webkit-scrollbar {
+    display: none !important;
+}
+
+._1J6n9::-webkit-scrollbar {
+    display: none !important;
+}
+
+#site-root::-webkit-scrollbar {
+    display: none !important;
+}
+
+#masterPage::-webkit-scrollbar {
+    display: none !important;
+}
+
+#SITE_HEADER_WRAPPER::-webkit-scrollbar {
+    display: none !important;
+}
+
+#SITE_HEADER::-webkit-scrollbar {
+    display: none !important;
 }
 
 #SITE_PAGES::-webkit-scrollbar {
-    display: none;
+    display: none !important;
 }
 
 ._3akMP::-webkit-scrollbar {
-    display: none;
+    display: none !important;
 }
 
 ._1vnzj::-webkit-scrollbar {
-    display: none;
+    display: none !important;
 }
 
 ._2egft::-webkit-scrollbar {
-    display: none;
+    display: none !important;
 }
 
 ._26QaB::-webkit-scrollbar {
-    display: none;
+    display: none !important;
 }
 
 ._3S5H9::-webkit-scrollbar {
-    display: none;
+    display: none !important;
 }
 
 ._16FUt::-webkit-scrollbar {
-    display: none;
+    display: none !important;
 }
 
 /* normal */

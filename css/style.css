@@ -282,6 +282,10 @@ body{
 	z-index: 1;
 }
 
+.scroll_x::-webkit-scrollbar {
+    display: block;
+}
+
 .scroll_x_in{
 	width: 100%;
 	height: 42vh;

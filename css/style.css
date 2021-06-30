@@ -15,6 +15,7 @@ body{
 	margin-right: 0px !important;
 	margin-bottom: 0px !important;
 	margin-left: 0px !important;
+        float: left !important;
 }
 
 .top_header_bg{

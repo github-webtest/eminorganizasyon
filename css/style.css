@@ -363,6 +363,10 @@ body{
 	z-index: 998;
 }
 
+.menu_bar_href{
+	text-decoration: none;
+}
+
 .menu_bar_in{
 	width: 96%;
 	margin-top: 12vh;

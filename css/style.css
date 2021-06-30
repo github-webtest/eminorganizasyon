@@ -10,130 +10,40 @@ body{
 
 /* wix class */
 
-.device-mobile-optimized{
-	width: 100% !important;
-	height: 100vh !important;
-	margin-top: 0px !important;
-	margin-right: 0px !important;
-	margin-bottom: 0px !important;
-	margin-left: 0px !important;
-	float: left !important;
-	top: 0px !important;
-    left: 0px !important;
-	overflow-x: hidden !important;
-	overflow-y: hidden !important;
+.device-mobile-optimized::-webkit-scrollbar {
+    display: none;
 }
 
-#SITE_CONTAINER{
-	width: 100% !important;
-	height: 100vh !important;
-	margin-top: 0px !important;
-	margin-right: 0px !important;
-	margin-bottom: 0px !important;
-	margin-left: 0px !important;
-	float: left !important;
-	top: 0px !important;
-    left: 0px !important;
-	overflow-x: hidden !important;
-	overflow-y: hidden !important;
+#SITE_CONTAINER::-webkit-scrollbar {
+    display: none;
 }
 
-#SITE_PAGES{
-	width: 100% !important;
-	height: 100vh !important;
-	margin-top: 0px !important;
-	margin-right: 0px !important;
-	margin-bottom: 0px !important;
-	margin-left: 0px !important;
-	float: left !important;
-	top: 0px !important;
-    left: 0px !important;
-	overflow-x: hidden !important;
-	overflow-y: hidden !important;
+#SITE_PAGES::-webkit-scrollbar {
+    display: none;
 }
 
-._3akMP{
-	width: 100% !important;
-	height: 100vh !important;
-	margin-top: 0px !important;
-	margin-right: 0px !important;
-	margin-bottom: 0px !important;
-	margin-left: 0px !important;
-	float: left !important;
-	top: 0px !important;
-    left: 0px !important;
-	overflow-x: hidden !important;
-	overflow-y: hidden !important;
+._3akMP::-webkit-scrollbar {
+    display: none;
 }
 
-._1vnzj{
-	width: 100% !important;
-	height: 100vh !important;
-	margin-top: 0px !important;
-	margin-right: 0px !important;
-	margin-bottom: 0px !important;
-	margin-left: 0px !important;
-	float: left !important;
-	top: 0px !important;
-    left: 0px !important;
-	overflow-x: hidden !important;
-	overflow-y: hidden !important;
+._1vnzj::-webkit-scrollbar {
+    display: none;
 }
 
-._2egft{
-	width: 100% !important;
-	height: 100vh !important;
-	margin-top: 0px !important;
-	margin-right: 0px !important;
-	margin-bottom: 0px !important;
-	margin-left: 0px !important;
-	float: left !important;
-	top: 0px !important;
-    left: 0px !important;
-	overflow-x: hidden !important;
-	overflow-y: hidden !important;
+._2egft::-webkit-scrollbar {
+    display: none;
 }
 
-._26QaB{
-	width: 100% !important;
-	height: 100vh !important;
-	margin-top: 0px !important;
-	margin-right: 0px !important;
-	margin-bottom: 0px !important;
-	margin-left: 0px !important;
-	float: left !important;
-	top: 0px !important;
-    left: 0px !important;
-	overflow-x: hidden !important;
-	overflow-y: hidden !important;
+._26QaB::-webkit-scrollbar {
+    display: none;
 }
 
-._3S5H9{
-	width: 100% !important;
-	height: 100vh !important;
-	margin-top: 0px !important;
-	margin-right: 0px !important;
-	margin-bottom: 0px !important;
-	margin-left: 0px !important;
-	float: left !important;
-	top: 0px !important;
-    left: 0px !important;
-	overflow-x: hidden !important;
-	overflow-y: hidden !important;
+._3S5H9::-webkit-scrollbar {
+    display: none;
 }
 
-._16FUt{
-	width: 100% !important;
-	height: 100vh !important;
-	margin-top: 0px !important;
-	margin-right: 0px !important;
-	margin-bottom: 0px !important;
-	margin-left: 0px !important;
-	float: left !important;
-	top: 0px !important;
-    left: 0px !important;
-	overflow-x: hidden !important;
-	overflow-y: hidden !important;
+._16FUt::-webkit-scrollbar {
+    display: none;
 }
 
 /* normal */

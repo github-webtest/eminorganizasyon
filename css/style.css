@@ -8,6 +8,8 @@ body{
 	margin-left: 0px;
 }
 
+/* wix class */
+
 .device-mobile-optimized{
 	width: 100% !important;
 	height: 100vh !important;
@@ -23,6 +25,20 @@ body{
 }
 
 #SITE_CONTAINER{
+	overflow-x: hidden !important;
+	overflow-y: hidden !important;
+}
+
+._3S5H9{
+	width: 100% !important;
+	height: 100vh !important;
+	margin-top: 0px !important;
+	margin-right: 0px !important;
+	margin-bottom: 0px !important;
+	margin-left: 0px !important;
+	float: left !important;
+	top: 0px !important;
+    left: 0px !important;
 	overflow-x: hidden !important;
 	overflow-y: hidden !important;
 }

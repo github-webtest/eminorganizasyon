@@ -157,7 +157,6 @@ body{
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	z-index: 1;
-	user-select: none;
 }
 
 .banner_in{
@@ -178,7 +177,6 @@ body{
 	text-align: left;
 	color: black;
 	font-size: 5vh;
-	user-select: none;
 }
 
 .title_1_bottom{
@@ -189,7 +187,6 @@ body{
 	text-align: left;
 	color: black;
 	font-size: 2.8vh;
-	user-select: none;
 }
 
 .title_img{
@@ -242,7 +239,6 @@ body{
 	width: 12%;
 	height: 42vh;
 	float: left;
-	user-select: none;
 	z-index: 2;
 }
 
@@ -354,8 +350,8 @@ body{
 	height: 80px;
 	margin-top: 4vh;
 	background-color: #6636cc;
-	user-select: none;
 	float: left;
+	user-select: none;
 }
 
 .footer_in_div{
@@ -444,7 +440,6 @@ body{
 	animation-duration: 0.8s;
 	-webkit-animation-name: menu_go;
 	-webkit-animation-duration: 0.8s;
-	user-select: none;
 	position: fixed;
 	z-index: 998;
 }

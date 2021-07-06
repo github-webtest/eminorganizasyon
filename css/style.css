@@ -166,13 +166,6 @@ body{
 	font-size: 4.2vh;
 	color: white;
 	text-align: center;
-}
-
-.banner_in b{
-	background-color: rgba(0,0,0,0.1);
-}
-
-.banner_in span{
 	background-color: rgba(0,0,0,0.1);
 }
 

@@ -299,12 +299,28 @@ body{
 	text-align: center;
 }
 
-.footer_icons_a{
+.footer_icons_a_1{
 	width: 45px;
 	height: 45px;
 	margin-right: 10px;
 	float: left;
-	fill: white;
+	background-image: url('https://github-webtest.github.io/eminorganizasyon/images/facebook_icon.png');
+}
+
+.footer_icons_a_2{
+	width: 45px;
+	height: 45px;
+	margin-right: 10px;
+	float: left;
+	background-image: url('https://github-webtest.github.io/eminorganizasyon/images/twitter_icon.png');
+}
+
+.footer_icons_a_3{
+	width: 45px;
+	height: 45px;
+	margin-right: 10px;
+	float: left;
+	background-image: url('https://github-webtest.github.io/eminorganizasyon/images/instagram_icon.png');
 }
 
 /* menu */

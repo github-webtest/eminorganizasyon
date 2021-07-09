@@ -16,7 +16,7 @@ body{
 /* wix */
 
 .mlsxv{
-	display: none;
+	display: none !important;
 }
 
 .top_header_bg{
@@ -55,6 +55,7 @@ body{
 .scroll_div{
 	width: 100%;
 	height: 100vh;
+	margin-top: -100vh;
 	float: left;
 	overflow: scroll;
 }

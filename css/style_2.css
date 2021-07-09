@@ -371,6 +371,7 @@ body{
 .menu_bar{
 	width: 290px;
 	height: 100vh;
+	top: 0px;
 	right: 0px;
 	background-color: #6636cc;
 	display: none;

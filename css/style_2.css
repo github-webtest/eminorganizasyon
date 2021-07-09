@@ -305,6 +305,8 @@ body{
 	margin-right: 10px;
 	float: left;
 	background-image: url('https://github-webtest.github.io/eminorganizasyon/images/facebook_icon.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 
 .footer_icons_a_2{
@@ -313,6 +315,8 @@ body{
 	margin-right: 10px;
 	float: left;
 	background-image: url('https://github-webtest.github.io/eminorganizasyon/images/twitter_icon.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 
 .footer_icons_a_3{
@@ -321,6 +325,8 @@ body{
 	margin-right: 10px;
 	float: left;
 	background-image: url('https://github-webtest.github.io/eminorganizasyon/images/instagram_icon.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 
 /* menu */

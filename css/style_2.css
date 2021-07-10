@@ -15,7 +15,15 @@ body{
 
 /* wix */
 .mlsxv{
-	display: none;
+	display: none !important;
+}
+
+#bgMedia_pageBackground_c1dmp{
+	display: none !important;
+}
+
+#site-root{
+	display: none !important;
 }
 
 .top_header_bg{

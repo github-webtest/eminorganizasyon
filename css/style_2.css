@@ -14,6 +14,10 @@ body{
 }
 
 /* wix */
+.mlsxv{
+	width: 0px !important;
+	height: 0px !important;
+}
 
 .top_header_bg{
 	width: 100%;

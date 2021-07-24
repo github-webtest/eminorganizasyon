@@ -412,3 +412,39 @@ body{
 	height: 50vh;
 	margin-top: 4vh;
 }
+
+/* google_play */
+
+.go_play{
+	width: 70%;
+	height: 6vh;
+	position: fixed;
+	z-index: 999;
+	bottom: 2vh;
+	left: 15%;
+	background-color: lime;
+	box-shadow: 0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 3px 3px -2px rgb(0 0 0 / 12%), 0px 1px 8px 0px rgb(0 0 0 / 20%);
+	border: 1px;
+    color: white;
+	background-color: #689F38;
+}
+
+.go_play_close{
+	width: 3vh;
+	height: 3vh;
+	float: right;
+}
+
+.go_play_in{
+	width: 100%;
+	height: 3vh;
+	margin-top: -1.5vh;
+	font-size: 3vh;
+	text-align: center;
+	user-select: none;
+	float: left;
+}
+
+.go_play:active{
+	background-color: lime;
+}

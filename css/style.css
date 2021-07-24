@@ -427,6 +427,7 @@ body{
 	border: 1px;
     color: white;
 	background-color: #689F38;
+	display: none;
 }
 
 .go_play_close{

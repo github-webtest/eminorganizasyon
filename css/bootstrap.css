@@ -30,4 +30,8 @@
 	color: white;
 	text-align: center;
 	}
+	
+	.go_play{
+	display: block;
+	}
 }

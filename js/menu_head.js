@@ -22,3 +22,11 @@ function menu_close() {
     document.getElementById("menu_bar_id").style.animationName = "menu_go_a";
 	toggleStatus = 1;
 }
+
+function go_play(){
+	window.location.href= "https://play.google.com/store/apps/details?id=com.xmaf.eo";
+}
+
+function close_play() {
+	document.getElementById("go_play_div").style.display= "none";
+}

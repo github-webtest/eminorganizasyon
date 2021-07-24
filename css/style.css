@@ -437,6 +437,7 @@ body{
 	margin-top: 0.5vh;
 	margin-right: 0.5vh;
 	z-index: 1000;
+	cursor: pointer;
 }
 
 .go_play_close_img{
@@ -445,14 +446,18 @@ body{
 }
 
 .go_play_in{
+	width: 86%;
+	height: 6vh;
+	float: left;
+}
+
+.go_play_in_1{
+	width: 100%;
 	height: 3vh;
-	font-size: 3vh;
-	margin-top: 1.5vh;
+	font-size: 2.5vh;
+	margin-top: 1.7vh;
 	user-select: none;
 	text-align: center;
 	z-index: 999;
-}
-
-.go_play:active{
-	background-color: lime;
+	color: white;
 }

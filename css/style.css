@@ -2,6 +2,8 @@ html::-webkit-scrollbar {
     display: none !important;
 }
 
+[data-mesh-id=Containerc1dmpinlineContent]{height:100vh !important;width:100%}
+
 #PAGES_CONTAINER{
 	width: 100% !important;
 	height: 100vh !important;

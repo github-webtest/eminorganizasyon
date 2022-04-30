@@ -4,6 +4,7 @@ html::-webkit-scrollbar {
 
 #PAGES_CONTAINER{
 	width: 100% !important;
+	height: 100vh !important;
 }
 
 body{

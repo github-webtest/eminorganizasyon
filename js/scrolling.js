@@ -17,3 +17,5 @@ function back_photo_2() {
 function height_100() {
 	document.getElementsByClassName("_3Xz9Z").style.height = "100vh"
 }
+
+height_100();
